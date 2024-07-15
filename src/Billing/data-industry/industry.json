@@ -1,0 +1,2320 @@
+[
+  {
+    "category": "Agriculture, Forestry, Fishing & Hunting",
+    "industries": [
+      { "industry_name": "Agriculture, Forestry, Fishing and Hunting" },
+      { "industry_name": "Hog & Pig Farming" },
+      { "industry_name": "Soybean Farming" },
+      { "industry_name": "Chicken Egg Production" },
+      { "industry_name": "Oilseed Farming" },
+      { "industry_name": "Chicken & Turkey Meat Production" },
+      { "industry_name": "Corn Farming" },
+      { "industry_name": "Sheep Farming" },
+      { "industry_name": "Wheat, Barley & Sorghum Farming" },
+      { "industry_name": "Fish & Seafood Aquaculture" },
+      { "industry_name": "Vegetable Farming" },
+      { "industry_name": "Beekeeping" },
+      { "industry_name": "Orange & Citrus Groves" },
+      { "industry_name": "Horse & Other Equine Production" },
+      { "industry_name": "Fruit & Nut Farming" },
+      { "industry_name": "Timber Services" },
+      { "industry_name": "Plant & Flower Growing" },
+      { "industry_name": "Logging" },
+      { "industry_name": "Tobacco Growing" },
+      { "industry_name": "Fishing" },
+      { "industry_name": "Cotton Farming" },
+      { "industry_name": "Hunting & Trapping" },
+      { "industry_name": "Sugarcane Harvesting" },
+      { "industry_name": "Crop Services" },
+      { "industry_name": "Hay & Crop Farming" },
+      { "industry_name": "Livestock Production Support Services" },
+      { "industry_name": "Beef Cattle Production" },
+      { "industry_name": "Forest Support Services" },
+      { "industry_name": "Dairy Farms" }
+    ]
+  },
+  {
+    "category": "Mining",
+    "industries": [
+      {
+        "industry_name": "Mining"
+      },
+      {
+        "industry_name": "Molybdenum & Metal Ore Mining"
+      },
+      {
+        "industry_name": "Oil Drilling & Gas Extraction"
+      },
+      {
+        "industry_name": "Stone Mining"
+      },
+      {
+        "industry_name": "Coal Mining"
+      },
+      {
+        "industry_name": "Sand & Gravel Mining"
+      },
+      {
+        "industry_name": "Iron Ore Mining"
+      },
+      {
+        "industry_name": "Mineral & Phosphate Mining"
+      },
+      {
+        "industry_name": "Gold & Silver Ore Mining"
+      },
+      {
+        "industry_name": "Oil & Gas Field Services"
+      },
+      {
+        "industry_name": "Copper, Nickel, Lead & Zinc Mining"
+      }
+    ]
+  },
+  {
+    "category": "Utilities",
+    "industries": [
+      {
+        "industry_name": "Utilities"
+      },
+      {
+        "industry_name": "Electric Power Transmission"
+      },
+      {
+        "industry_name": "Coal & Natural Gas Power"
+      },
+      {
+        "industry_name": "Natural Gas Distribution"
+      },
+      {
+        "industry_name": "Nuclear Power"
+      },
+      {
+        "industry_name": "Water Supply & Irrigation Systems"
+      },
+      {
+        "industry_name": "Hydroelectric Power"
+      },
+      {
+        "industry_name": "Sewage Treatment Facilities"
+      },
+      {
+        "industry_name": "Wind Power"
+      },
+      {
+        "industry_name": "Steam & Air-Conditioning Supply"
+      },
+      {
+        "industry_name": "Solar Power"
+      }
+    ]
+  },
+  {
+    "category": "Construction",
+    "industries": [
+      {
+        "industry_name": "Construction"
+      },
+      {
+        "industry_name": "Masonry"
+      },
+      {
+        "industry_name": "Home Builders"
+      },
+      {
+        "industry_name": "Glass & Glazing Contractors"
+      },
+      {
+        "industry_name": "Apartment & Condominium Construction"
+      },
+      {
+        "industry_name": "Roofing Contractors"
+      },
+      {
+        "industry_name": "Housing Developers"
+      },
+      {
+        "industry_name": "Electricians"
+      },
+      {
+        "industry_name": "Remodeling"
+      },
+      {
+        "industry_name": "Heating & Air-Conditioning Contractors"
+      },
+      {
+        "industry_name": "Industrial Building Construction"
+      },
+      {
+        "industry_name": "Plumbers"
+      },
+      {
+        "industry_name": "Commercial Building Construction"
+      },
+      {
+        "industry_name": "Elevator Installation & Service"
+      },
+      {
+        "industry_name": "Municipal Building Construction"
+      },
+      {
+        "industry_name": "Drywall & Insulation Installers"
+      },
+      {
+        "industry_name": "Water & Sewer Line Construction"
+      },
+      {
+        "industry_name": "Painters"
+      },
+      {
+        "industry_name": "Oil & Gas Pipeline Construction"
+      },
+      {
+        "industry_name": "Flooring Installers"
+      },
+      {
+        "industry_name": "Transmission Line Construction"
+      },
+      {
+        "industry_name": "Tile Installers"
+      },
+      {
+        "industry_name": "Land Development"
+      },
+      {
+        "industry_name": "Carpenters"
+      },
+      {
+        "industry_name": "Road & Highway Construction"
+      },
+      {
+        "industry_name": "Building Finishing Contractors"
+      },
+      {
+        "industry_name": "Bridge & Elevated Highway Construction"
+      },
+      {
+        "industry_name": "Excavation Contractors"
+      },
+      {
+        "industry_name": "Heavy Engineering Construction"
+      },
+      {
+        "industry_name": "Demolition & Wrecking"
+      },
+      {
+        "industry_name": "Concrete Contractors"
+      },
+      {
+        "industry_name": "Paving Contractors"
+      },
+      {
+        "industry_name": "Steel Framing"
+      },
+      {
+        "industry_name": "Swimming Pool Construction"
+      },
+      {
+        "industry_name": "Wood Framing"
+      },
+      {
+        "industry_name": "Fence Construction"
+      }
+    ]
+  },
+  {
+    "category": "Manufacturing",
+    "industries": [
+      {
+        "industry_name": "Manufacturing"
+      },
+      {
+        "industry_name": "Gypsum Product Mfg."
+      },
+      {
+        "industry_name": "Animal Food Production"
+      },
+      {
+        "industry_name": "Abrasive & Sandpaper Mfg."
+      },
+      {
+        "industry_name": "Flour Milling"
+      },
+      {
+        "industry_name": "Mineral Product Mfg."
+      },
+      {
+        "industry_name": "Margarine & Cooking Oil Processing"
+      },
+      {
+        "industry_name": "Iron & Steel Mfg."
+      },
+      {
+        "industry_name": "Cereal Production"
+      },
+      {
+        "industry_name": "Metal Pipe & Tube Mfg."
+      },
+      {
+        "industry_name": "Sugar Processing"
+      },
+      {
+        "industry_name": "Steel Rolling & Drawing"
+      },
+      {
+        "industry_name": "Candy Production"
+      },
+      {
+        "industry_name": "Aluminum Mfg."
+      },
+      {
+        "industry_name": "Chocolate Production"
+      },
+      {
+        "industry_name": "Nonferrous Metal Refining"
+      },
+      {
+        "industry_name": "Frozen Food Production"
+      },
+      {
+        "industry_name": "Copper Rolling, Drawing & Extruding"
+      },
+      {
+        "industry_name": "Canned Fruit & Vegetable Processing"
+      },
+      {
+        "industry_name": "Nonferrous Metal Rolling & Alloying"
+      },
+      {
+        "industry_name": "Dairy Product Production"
+      },
+      {
+        "industry_name": "Ferrous Metal Foundry Products"
+      },
+      {
+        "industry_name": "Ice Cream Production"
+      },
+      {
+        "industry_name": "Nonferrous Metal Foundry Products Mfg."
+      },
+      {
+        "industry_name": "Meat, Beef & Poultry Processing"
+      },
+      {
+        "industry_name": "Metal Stamping & Forging"
+      },
+      {
+        "industry_name": "Seafood Preparation"
+      },
+      {
+        "industry_name": "Hand Tool & Cutlery Mfg."
+      },
+      {
+        "industry_name": "Bread Production"
+      },
+      {
+        "industry_name": "Structural Metal Product Mfg."
+      },
+      {
+        "industry_name": "Cookie, Cracker & Pasta Production"
+      },
+      {
+        "industry_name": "Sheet Metal, Window & Door Mfg."
+      },
+      {
+        "industry_name": "Tortilla Production"
+      },
+      {
+        "industry_name": "Boiler & Heat Exchanger Mfg."
+      },
+      {
+        "industry_name": "Snack Food Production"
+      },
+      {
+        "industry_name": "Metal Tank Mfg."
+      },
+      {
+        "industry_name": "Coffee Production"
+      },
+      {
+        "industry_name": "Metal Can & Container Mfg."
+      },
+      {
+        "industry_name": "Tea Production"
+      },
+      {
+        "industry_name": "Hardware Mfg."
+      },
+      {
+        "industry_name": "Syrup & Flavoring Production"
+      },
+      {
+        "industry_name": "Wire & Spring Mfg."
+      },
+      {
+        "industry_name": "Seasoning, Sauce and Condiment Production"
+      },
+      {
+        "industry_name": "Machine Shop Services"
+      },
+      {
+        "industry_name": "Baking Mix & Prepared Food Production"
+      },
+      {
+        "industry_name": "Screw, Nut & Bolt Mfg."
+      },
+      {
+        "industry_name": "Soda Production"
+      },
+      {
+        "industry_name": "Metal Plating & Treating"
+      },
+      {
+        "industry_name": "Bottled Water Production"
+      },
+      {
+        "industry_name": "Valve Mfg."
+      },
+      {
+        "industry_name": "Juice Production"
+      },
+      {
+        "industry_name": "Guns & Ammunition Mfg."
+      },
+      {
+        "industry_name": "Breweries"
+      },
+      {
+        "industry_name": "Ball Bearing Mfg."
+      },
+      {
+        "industry_name": "Wineries"
+      },
+      {
+        "industry_name": "Tractors & Agricultural Machinery Mfg."
+      },
+      {
+        "industry_name": "Distilleries"
+      },
+      {
+        "industry_name": "Construction Machinery Mfg."
+      },
+      {
+        "industry_name": "Cigarette & Tobacco Mfg."
+      },
+      {
+        "industry_name": "Mining, Oil & Gas Machinery Mfg."
+      },
+      {
+        "industry_name": "Textile Mills"
+      },
+      {
+        "industry_name": "Woodworking Machinery Mfg."
+      },
+      {
+        "industry_name": "Carpet Mills"
+      },
+      {
+        "industry_name": "Plastics & Rubber Machinery Mfg."
+      },
+      {
+        "industry_name": "Apparel Knitting Mills"
+      },
+      {
+        "industry_name": "Semiconductor Machinery Mfg."
+      },
+      {
+        "industry_name": "Cut & Sew Apparel Contractors"
+      },
+      {
+        "industry_name": "Printing, Paper, Food, Textile & Other Machinery Mfg."
+      },
+      {
+        "industry_name": "Cut & Sew Apparel Mfg."
+      },
+      {
+        "industry_name": "Copier & Optical Machinery Mfg."
+      },
+      {
+        "industry_name": "Costume & Team Uniform Mfg."
+      },
+      {
+        "industry_name": "Heating & Air Conditioning Equipment Mfg."
+      },
+      {
+        "industry_name": "Leather Tanning & Finishing"
+      },
+      {
+        "industry_name": "Metalworking Machinery Mfg."
+      },
+      {
+        "industry_name": "Shoe & Footwear Mfg."
+      },
+      {
+        "industry_name": "Engine & Turbine Mfg."
+      },
+      {
+        "industry_name": "Leather Good & Luggage Mfg."
+      },
+      {
+        "industry_name": "Wind Turbine Mfg."
+      },
+      {
+        "industry_name": "Sawmills & Wood Production"
+      },
+      {
+        "industry_name": "Pump & Compressor Mfg."
+      },
+      {
+        "industry_name": "Wood Paneling Mfg."
+      },
+      {
+        "industry_name": "Forklift & Conveyor Mfg."
+      },
+      {
+        "industry_name": "Millwork"
+      },
+      {
+        "industry_name": "Power Tools & Other General Purpose Machinery Mfg."
+      },
+      {
+        "industry_name": "Wood Pallets & Skids Production"
+      },
+      {
+        "industry_name": "Computer Mfg."
+      },
+      {
+        "industry_name": "Prefabricated Home Mfg."
+      },
+      {
+        "industry_name": "Computer Peripheral Mfg."
+      },
+      {
+        "industry_name": "Wood Product Mfg."
+      },
+      {
+        "industry_name": "Telecommunication Networking Equipment Mfg."
+      },
+      {
+        "industry_name": "Wood Pulp Mills"
+      },
+      {
+        "industry_name": "Communication Equipment Mfg."
+      },
+      {
+        "industry_name": "Paper Mills"
+      },
+      {
+        "industry_name": "Alarm, Horn & Traffic Control Equipment Mfg."
+      },
+      {
+        "industry_name": "Paperboard Mills"
+      },
+      {
+        "industry_name": "Audio & Video Equipment Mfg."
+      },
+      {
+        "industry_name": "Cardboard Box & Container Mfg."
+      },
+      {
+        "industry_name": "Semiconductor & Circuit Mfg."
+      },
+      {
+        "industry_name": "Coated & Laminated Paper Mfg."
+      },
+      {
+        "industry_name": "Circuit Board & Electronic Component Mfg."
+      },
+      {
+        "industry_name": "Office Stationery Mfg."
+      },
+      {
+        "industry_name": "Solar Panel Mfg."
+      },
+      {
+        "industry_name": "Sanitary Paper Product Mfg."
+      },
+      {
+        "industry_name": "Navigational Instrument Mfg."
+      },
+      {
+        "industry_name": "Paper Product Mfg."
+      },
+      {
+        "industry_name": "Medical Device Mfg."
+      },
+      {
+        "industry_name": "Printing"
+      },
+      {
+        "industry_name": "Recordable Media Mfg."
+      },
+      {
+        "industry_name": "Quick Printing"
+      },
+      {
+        "industry_name": "Lighting & Bulb Mfg."
+      },
+      {
+        "industry_name": "Printing Services"
+      },
+      {
+        "industry_name": "Lighting Fixtures Mfg."
+      },
+      {
+        "industry_name": "Petroleum Refining"
+      },
+      {
+        "industry_name": "Vacuum, Fan & Small Household Appliance Mfg."
+      },
+      {
+        "industry_name": "Asphalt Mfg."
+      },
+      {
+        "industry_name": "Major Household Appliance Mfg."
+      },
+      {
+        "industry_name": "Lubricant Oil Mfg."
+      },
+      {
+        "industry_name": "Electrical Equipment Mfg."
+      },
+      {
+        "industry_name": "Petrochemical Mfg."
+      },
+      {
+        "industry_name": "Battery Mfg."
+      },
+      {
+        "industry_name": "Oxygen & Hydrogen Gas Mfg."
+      },
+      {
+        "industry_name": "Wire & Cable Mfg."
+      },
+      {
+        "industry_name": "Dye & Pigment Mfg."
+      },
+      {
+        "industry_name": "Wiring Device Mfg."
+      },
+      {
+        "industry_name": "Inorganic Chemical Mfg."
+      },
+      {
+        "industry_name": "Power Conversion Equipment Mfg."
+      },
+      {
+        "industry_name": "Organic Chemical Mfg."
+      },
+      {
+        "industry_name": "Automobile & Light Duty Motor Vehicle Mfg."
+      },
+      {
+        "industry_name": "Plastic & Resin Mfg."
+      },
+      {
+        "industry_name": "Truck & Bus Mfg."
+      },
+      {
+        "industry_name": "Synthetic Fiber Mfg."
+      },
+      {
+        "industry_name": "Truck, Trailer & Motor Home Mfg."
+      },
+      {
+        "industry_name": "Fertilizer Mfg."
+      },
+      {
+        "industry_name": "Automobile Engine & Parts Mfg."
+      },
+      {
+        "industry_name": "Pesticide Mfg."
+      },
+      {
+        "industry_name": "Automobile Electronics Mfg."
+      },
+      {
+        "industry_name": "Brand Name Pharmaceutical Mfg."
+      },
+      {
+        "industry_name": "Automobile Steering & Suspension Mfg."
+      },
+      {
+        "industry_name": "Generic Pharmaceutical Mfg."
+      },
+      {
+        "industry_name": "Automobile Brakes Mfg."
+      },
+      {
+        "industry_name": "Vitamin & Supplement Mfg."
+      },
+      {
+        "industry_name": "Automobile Transmission Mfg."
+      },
+      {
+        "industry_name": "Paint Mfg."
+      },
+      {
+        "industry_name": "Automobile Interior Mfg."
+      },
+      {
+        "industry_name": "Adhesive Mfg."
+      },
+      {
+        "industry_name": "Automobile Metal Stamping"
+      },
+      {
+        "industry_name": "Soap & Cleaning Compound Mfg."
+      },
+      {
+        "industry_name": "Auto Parts Mfg."
+      },
+      {
+        "industry_name": "Cosmetic & Beauty Products Mfg."
+      },
+      {
+        "industry_name": "Aircraft, Engine & Parts Mfg."
+      },
+      {
+        "industry_name": "Ink Mfg."
+      },
+      {
+        "industry_name": "Space Vehicle & Missile Mfg."
+      },
+      {
+        "industry_name": "Explosives Mfg."
+      },
+      {
+        "industry_name": "Train, Subway & Transit Car Mfg."
+      },
+      {
+        "industry_name": "Chemical Product Mfg."
+      },
+      {
+        "industry_name": "Ship Building"
+      },
+      {
+        "industry_name": "Plastic Film, Sheet & Bag Mfg."
+      },
+      {
+        "industry_name": "Boat Building"
+      },
+      {
+        "industry_name": "Plastic Pipe & Parts Mfg."
+      },
+      {
+        "industry_name": "Motorcycle, Bike & Parts Mfg."
+      },
+      {
+        "industry_name": "Laminated Plastics Mfg."
+      },
+      {
+        "industry_name": "Tank & Armored Vehicle Mfg."
+      },
+      {
+        "industry_name": "Polystyrene Foam Mfg."
+      },
+      {
+        "industry_name": "ATV, Golf Cart & Snowmobile Mfg."
+      },
+      {
+        "industry_name": "Urethane Foam Mfg."
+      },
+      {
+        "industry_name": "Cabinet & Vanity Mfg."
+      },
+      {
+        "industry_name": "Plastic Bottle Mfg."
+      },
+      {
+        "industry_name": "Household Furniture Mfg."
+      },
+      {
+        "industry_name": "Plastic Products Miscellaneous Mfg."
+      },
+      {
+        "industry_name": "Office Furniture Mfg."
+      },
+      {
+        "industry_name": "Tire Mfg."
+      },
+      {
+        "industry_name": "Mattress Mfg."
+      },
+      {
+        "industry_name": "Hose & Belt Mfg."
+      },
+      {
+        "industry_name": "Blind & Shade Mfg."
+      },
+      {
+        "industry_name": "Rubber Product Mfg."
+      },
+      {
+        "industry_name": "Medical Instrument & Supply Mfg."
+      },
+      {
+        "industry_name": "Ceramics Mfg."
+      },
+      {
+        "industry_name": "Glasses & Contact Lens Mfg."
+      },
+      {
+        "industry_name": "Clay Brick & Product Mfg."
+      },
+      {
+        "industry_name": "Jewelry Mfg."
+      },
+      {
+        "industry_name": "Glass Product Mfg."
+      },
+      {
+        "industry_name": "Athletic & Sporting Goods Mfg."
+      },
+      {
+        "industry_name": "Cement Mfg."
+      },
+      {
+        "industry_name": "Gym & Exercise Equipment Mfg."
+      },
+      {
+        "industry_name": "Ready-Mix Concrete Mfg."
+      },
+      {
+        "industry_name": "Toy, Doll & Game Mfg."
+      },
+      {
+        "industry_name": "Concrete Pipe & Block Mfg."
+      },
+      {
+        "industry_name": "Art & Office Supply Mfg."
+      },
+      {
+        "industry_name": "Precast Concrete Mfg."
+      },
+      {
+        "industry_name": "Billboard & Sign Mfg."
+      }
+    ]
+  },
+  {
+    "category": "Wholesale Trade",
+    "industries": [
+      {
+        "industry_name": "Toy & Craft Supplies Wholesaling"
+      },
+      {
+        "industry_name": "Automobile Wholesaling"
+      },
+      {
+        "industry_name": "Auto Parts Wholesaling"
+      },
+      {
+        "industry_name": "Tire Wholesaling"
+      },
+      {
+        "industry_name": "Used Car Parts Wholesaling"
+      },
+      {
+        "industry_name": "Furniture Wholesaling"
+      },
+      {
+        "industry_name": "Home Furnishing Wholesaling"
+      },
+      {
+        "industry_name": "Lumber Wholesaling"
+      },
+      {
+        "industry_name": "Stone, Concrete & Clay Wholesaling"
+      },
+      {
+        "industry_name": "Roofing, Siding & Insulation Wholesaling"
+      },
+      {
+        "industry_name": "Manufactured Home Wholesaling"
+      },
+      {
+        "industry_name": "Camera & Film Wholesaling"
+      },
+      {
+        "industry_name": "Copier & Office Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Computer & Packaged Software Wholesaling"
+      },
+      {
+        "industry_name": "Restaurant & Hotel Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Medical Supplies Wholesaling"
+      },
+      {
+        "industry_name": "Glasses & Contacts Wholesaling"
+      },
+      {
+        "industry_name": "Laboratory Supply Wholesaling"
+      },
+      {
+        "industry_name": "Metal Wholesaling"
+      },
+      {
+        "industry_name": "Coal & Ore Wholesaling"
+      },
+      {
+        "industry_name": "Electrical Equipment Wholesaling"
+      },
+      {
+        "industry_name": "TV & Appliance Wholesaling"
+      },
+      {
+        "industry_name": "Electronic Part & Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Tool & Hardware Wholesaling"
+      },
+      {
+        "industry_name": "Plumbing & Heating Supplies Wholesaling"
+      },
+      {
+        "industry_name": "Heating & Air Conditioning Wholesaling"
+      },
+      {
+        "industry_name": "Refrigeration Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Construction & Mining Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Farm, Lawn & Garden Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Industrial Machinery & Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Industrial Supplies Wholesaling"
+      },
+      {
+        "industry_name": "Janitorial Equipment Supply Wholesaling"
+      },
+      {
+        "industry_name": "Aircraft, Marine & Railroad Transportation Equipment Wholesaling"
+      },
+      {
+        "industry_name": "Sporting Goods Wholesaling"
+      },
+      {
+        "industry_name": "Recyclable Material Wholesaling"
+      },
+      {
+        "industry_name": "Jewelry & Watch Wholesaling"
+      },
+      {
+        "industry_name": "Paper Wholesaling"
+      },
+      {
+        "industry_name": "Office Stationery Wholesaling"
+      },
+      {
+        "industry_name": "Paper Bag & Disposable Plastic Product Wholesaling"
+      },
+      {
+        "industry_name": "Drug, Cosmetic & Toiletry Wholesaling"
+      },
+      {
+        "industry_name": "Piece Goods, Notions & Other Apparel Wholesaling"
+      },
+      {
+        "industry_name": "Footwear Wholesaling"
+      },
+      {
+        "industry_name": "Clothing & Clothing Accessories Wholesaling"
+      },
+      {
+        "industry_name": "Grocery Wholesaling"
+      },
+      {
+        "industry_name": "Frozen Food Wholesaling"
+      },
+      {
+        "industry_name": "Dairy Wholesaling"
+      },
+      {
+        "industry_name": "Egg & Poultry Wholesaling"
+      },
+      {
+        "industry_name": "Confectionery Wholesaling"
+      },
+      {
+        "industry_name": "Fish & Seafood Wholesaling"
+      },
+      {
+        "industry_name": "Beef & Pork Wholesaling"
+      },
+      {
+        "industry_name": "Fruit & Vegetable Wholesaling"
+      },
+      {
+        "industry_name": "Soft Drink, Baked Goods & Other Grocery Wholesaling"
+      },
+      {
+        "industry_name": "Corn, Wheat & Soybean Wholesaling"
+      },
+      {
+        "industry_name": "Cattle & Hog Wholesaling"
+      },
+      {
+        "industry_name": "Plastics Wholesaling"
+      },
+      {
+        "industry_name": "Chemical Wholesaling"
+      },
+      {
+        "industry_name": "Gasoline & Petroleum Bulk Stations"
+      },
+      {
+        "industry_name": "Gasoline & Petroleum Wholesaling"
+      },
+      {
+        "industry_name": "Beer Wholesaling"
+      },
+      {
+        "industry_name": "Wine & Spirits Wholesaling"
+      },
+      {
+        "industry_name": "Farm Supplies Wholesaling"
+      },
+      {
+        "industry_name": "Book, Magazine & Newspaper Wholesaling"
+      },
+      {
+        "industry_name": "Flower & Nursery Stock Wholesaling"
+      },
+      {
+        "industry_name": "Cigarette & Tobacco Products Wholesaling"
+      },
+      {
+        "industry_name": "Paint Wholesaling"
+      },
+      {
+        "industry_name": "Wholesale Trade Agents and Brokers"
+      }
+    ]
+  },
+  {
+    "category": "Retail Trade",
+    "industries": [
+      {
+        "industry_name": "Gas Stations with Convenience Stores"
+      },
+      {
+        "industry_name": "New Car Dealers"
+      },
+      {
+        "industry_name": "Used Car Dealers"
+      },
+      {
+        "industry_name": "Recreational Vehicle Dealers"
+      },
+      {
+        "industry_name": "Motorcycle Dealership and Repair"
+      },
+      {
+        "industry_name": "Bicycle Dealership and Repair"
+      },
+      {
+        "industry_name": "Boat Dealership and Repair"
+      },
+      {
+        "industry_name": "Auto Parts Stores"
+      },
+      {
+        "industry_name": "Tire Dealers"
+      },
+      {
+        "industry_name": "Furniture Stores"
+      },
+      {
+        "industry_name": "Floor Covering Stores"
+      },
+      {
+        "industry_name": "Home Furnishings Stores"
+      },
+      {
+        "industry_name": "Consumer Electronics Stores"
+      },
+      {
+        "industry_name": "Computer Stores"
+      },
+      {
+        "industry_name": "Camera Stores"
+      },
+      {
+        "industry_name": "Home Improvement Stores"
+      },
+      {
+        "industry_name": "Paint Stores"
+      },
+      {
+        "industry_name": "Hardware Stores"
+      },
+      {
+        "industry_name": "Lumber & Building Material Stores"
+      },
+      {
+        "industry_name": "Lawn & Outdoor Equipment Stores"
+      },
+      {
+        "industry_name": "Nursery & Garden Stores"
+      },
+      {
+        "industry_name": "Supermarkets & Grocery Stores"
+      },
+      {
+        "industry_name": "Convenience Stores"
+      },
+      {
+        "industry_name": "Meat Markets"
+      },
+      {
+        "industry_name": "Fish & Seafood Markets"
+      },
+      {
+        "industry_name": "Fruit & Vegetable Markets"
+      },
+      {
+        "industry_name": "Specialty Food Stores"
+      },
+      {
+        "industry_name": "Beer, Wine & Liquor Stores"
+      },
+      {
+        "industry_name": "Pharmacies & Drug Stores"
+      },
+      {
+        "industry_name": "Beauty, Cosmetics & Fragrance Stores"
+      },
+      {
+        "industry_name": "Eyeglasses & Contact Lens Stores"
+      },
+      {
+        "industry_name": "Health Stores"
+      },
+      {
+        "industry_name": "Gas Stations"
+      },
+      {
+        "industry_name": "Men's Clothing Stores"
+      },
+      {
+        "industry_name": "Women's Clothing Stores"
+      },
+      {
+        "industry_name": "Children's & Infants' Clothing Stores"
+      },
+      {
+        "industry_name": "Family Clothing Stores"
+      },
+      {
+        "industry_name": "Lingerie, Swimwear & Bridal Stores"
+      },
+      {
+        "industry_name": "Shoe Stores"
+      },
+      {
+        "industry_name": "Jewelry Stores"
+      },
+      {
+        "industry_name": "Handbag, Luggage & Accessory Stores"
+      },
+      {
+        "industry_name": "Sporting Goods Stores"
+      },
+      {
+        "industry_name": "Hobby & Toy Stores"
+      },
+      {
+        "industry_name": "Fabric, Craft & Sewing Supplies Stores"
+      },
+      {
+        "industry_name": "Musical Instrument & Supplies Stores"
+      },
+      {
+        "industry_name": "Book Stores"
+      },
+      {
+        "industry_name": "Record Stores"
+      },
+      {
+        "industry_name": "Department Stores"
+      },
+      {
+        "industry_name": "Warehouse Clubs & Supercenters"
+      },
+      {
+        "industry_name": "Dollar & Variety Stores"
+      },
+      {
+        "industry_name": "Florists"
+      },
+      {
+        "industry_name": "Office Supply Stores"
+      },
+      {
+        "industry_name": "Gift Shops & Card Stores"
+      },
+      {
+        "industry_name": "Used Goods Stores"
+      },
+      {
+        "industry_name": "Pet Stores"
+      },
+      {
+        "industry_name": "Art Dealers"
+      },
+      {
+        "industry_name": "Manufactured Home Dealers"
+      },
+      {
+        "industry_name": "Small Specialty Retail Stores"
+      },
+      {
+        "industry_name": "Mail Order"
+      },
+      {
+        "industry_name": "Vending Machine Operators"
+      },
+      {
+        "industry_name": "Fuel Dealers"
+      },
+      {
+        "industry_name": "Direct Selling Companies"
+      }
+    ]
+  },
+  {
+    "category": "Transportation & Warehousing",
+    "industries": [
+      {
+        "industry_name": "Organic Chemical Pipeline Transportation"
+      },
+      {
+        "industry_name": "International Airlines"
+      },
+      {
+        "industry_name": "Domestic Airlines"
+      },
+      {
+        "industry_name": "Charter Flights"
+      },
+      {
+        "industry_name": "Rail Transportation"
+      },
+      {
+        "industry_name": "Ocean & Coastal Transportation"
+      },
+      {
+        "industry_name": "Inland Water Transportation"
+      },
+      {
+        "industry_name": "Local Freight Trucking"
+      },
+      {
+        "industry_name": "Long-Distance Freight Trucking"
+      },
+      {
+        "industry_name": "Moving Services"
+      },
+      {
+        "industry_name": "Local Specialized Freight Trucking"
+      },
+      {
+        "industry_name": "Tank & Refrigeration Trucking"
+      },
+      {
+        "industry_name": "Public Transportation"
+      },
+      {
+        "industry_name": "Scheduled and Charter Bus Services"
+      },
+      {
+        "industry_name": "Taxi & Limousine Services"
+      },
+      {
+        "industry_name": "Public School Bus Services"
+      },
+      {
+        "industry_name": "Oil Pipeline Transportation"
+      },
+      {
+        "industry_name": "Gas Pipeline Transportation"
+      },
+      {
+        "industry_name": "Refined Petroleum Pipeline Transportation"
+      },
+      {
+        "industry_name": "Sightseeing Transportation"
+      },
+      {
+        "industry_name": "Airport Operations"
+      },
+      {
+        "industry_name": "Aircraft Maintenance, Repair & Overhaul"
+      },
+      {
+        "industry_name": "Rail Maintenance Services"
+      },
+      {
+        "industry_name": "Port & Harbor Operations"
+      },
+      {
+        "industry_name": "Stevedoring & Marine Cargo Handling"
+      },
+      {
+        "industry_name": "Tugboat & Shipping Navigational Services"
+      },
+      {
+        "industry_name": "Dry Docks & Cargo Inspection Services"
+      },
+      {
+        "industry_name": "Automobile Towing"
+      },
+      {
+        "industry_name": "Toll Roads & Weigh Stations"
+      },
+      {
+        "industry_name": "Freight Forwarding Brokerages & Agencies"
+      },
+      {
+        "industry_name": "Freight Packing & Logistics Services"
+      },
+      {
+        "industry_name": "Postal Service"
+      },
+      {
+        "industry_name": "Couriers & Local Delivery Services"
+      },
+      {
+        "industry_name": "Public Storage & Warehousing"
+      },
+      {
+        "industry_name": "Refrigerated Storage"
+      },
+      {
+        "industry_name": "Farm Product Storage & Warehousing"
+      },
+      {
+        "industry_name": "Specialized Storage & Warehousing"
+      }
+    ]
+  },
+  {
+    "category": "Technology",
+    "industries": [
+      {
+        "industry_name": "Software Development & Publishing"
+      },
+      {
+        "industry_name": "Hardware Manufacturing"
+      },
+      {
+        "industry_name": "Cloud Computing Services"
+      },
+      {
+        "industry_name": "Artificial Intelligence & Machine Learning"
+      },
+      {
+        "industry_name": "Cybersecurity Services"
+      },
+      {
+        "industry_name": "E-commerce Platforms"
+      },
+      {
+        "industry_name": "Telecommunications Services"
+      },
+      {
+        "industry_name": "Data Analytics & Big Data"
+      },
+      {
+        "industry_name": "Virtual & Augmented Reality"
+      },
+      {
+        "industry_name": "Internet of Things (IoT)"
+      },
+      {
+        "industry_name": "Blockchain & Cryptocurrency"
+      },
+      {
+        "industry_name": "Digital Marketing & SEO Services"
+      },
+      {
+        "industry_name": "Web Hosting & Domain Services"
+      },
+      {
+        "industry_name": "Mobile App Development"
+      },
+      {
+        "industry_name": "Gaming & Game Development"
+      },
+      {
+        "industry_name": "Network Infrastructure & Services"
+      },
+      {
+        "industry_name": "IT Consulting & Managed Services"
+      },
+      {
+        "industry_name": "Semiconductor Manufacturing"
+      },
+      {
+        "industry_name": "Consumer Electronics Production"
+      },
+      {
+        "industry_name": "Digital Payment Platforms"
+      },
+      {
+        "industry_name": "Smart Home Technologies"
+      },
+      {
+        "industry_name": "Wearable Technologies"
+      },
+      {
+        "industry_name": "3D Printing & Additive Manufacturing"
+      },
+      {
+        "industry_name": "Robotics & Automation"
+      },
+      {
+        "industry_name": "Drones & UAV Technologies"
+      },
+      {
+        "industry_name": "Quantum Computing"
+      },
+      {
+        "industry_name": "Biotechnology & Bioinformatics"
+      },
+      {
+        "industry_name": "Space Technologies & Satellite Services"
+      },
+      {
+        "industry_name": "Nanotechnology"
+      },
+      {
+        "industry_name": "Digital Health & Telemedicine"
+      },
+      {
+        "industry_name": "Smart Cities & Urban Tech Solutions"
+      },
+      {
+        "industry_name": "Autonomous Vehicles & Transportation Tech"
+      },
+      {
+        "industry_name": "Energy Storage & Advanced Battery Tech"
+      },
+      {
+        "industry_name": "Green & Renewable Technologies"
+      },
+      {
+        "industry_name": "EdTech & Online Learning Platforms"
+      },
+      {
+        "industry_name": "FinTech & Financial Services Tech"
+      },
+      {
+        "industry_name": "AgriTech & Smart Farming"
+      },
+      {
+        "industry_name": "RetailTech & E-commerce Innovations"
+      },
+      {
+        "industry_name": "Social Media Platforms & Services"
+      },
+      {
+        "industry_name": "Streaming & OTT Services"
+      },
+      {
+        "industry_name": "Digital Content Creation & Monetization"
+      },
+      {
+        "industry_name": "5G & Advanced Networking"
+      },
+      {
+        "industry_name": "Mixed Reality (MR) Technologies"
+      },
+      {
+        "industry_name": "Digital Twins & Virtual Replications"
+      },
+      {
+        "industry_name": "Advanced Materials & Smart Fabrics"
+      },
+      {
+        "industry_name": "Tech-Enabled Supply Chain & Logistics"
+      },
+      {
+        "industry_name": "Human Augmentation & Bionics"
+      },
+      {
+        "industry_name": "Digital Identity & Privacy Solutions"
+      },
+      {
+        "industry_name": "Edge Computing"
+      },
+      {
+        "industry_name": "Serverless Computing"
+      },
+      {
+        "industry_name": "Tech-Enabled Real Estate & PropTech"
+      }
+    ]
+  },
+  {
+    "category": "Information",
+    "industries": [
+      {
+        "industry_name": "Independent Label Music Production"
+      },
+      {
+        "industry_name": "Newspaper Publishing"
+      },
+      {
+        "industry_name": "Magazine & Periodical Publishing"
+      },
+      {
+        "industry_name": "Book Publishing"
+      },
+      {
+        "industry_name": "Database & Directory Publishing"
+      },
+      {
+        "industry_name": "Greeting Cards & Other Publishing"
+      },
+      {
+        "industry_name": "Software Publishing"
+      },
+      {
+        "industry_name": "Operating Systems & Productivity Software Publishing"
+      },
+      {
+        "industry_name": "Database, Storage & Backup Software Publishing"
+      },
+      {
+        "industry_name": "Business Analytics & Enterprise Software Publishing"
+      },
+      {
+        "industry_name": "Design, Editing & Rendering Software Publishing"
+      },
+      {
+        "industry_name": "Video Game Software Publishing"
+      },
+      {
+        "industry_name": "Security Software Publishing"
+      },
+      {
+        "industry_name": "Major Label Music Production"
+      },
+      {
+        "industry_name": "Music Publishing"
+      },
+      {
+        "industry_name": "Audio Production Studios"
+      },
+      {
+        "industry_name": "Media Streaming, Social Networks and Other Content Providers"
+      },
+      {
+        "industry_name": "Cable Providers"
+      },
+      {
+        "industry_name": "Satellite TV Providers"
+      },
+      {
+        "industry_name": "Wired Telecommunications Carriers"
+      },
+      {
+        "industry_name": "Internet Service Providers"
+      },
+      {
+        "industry_name": "VoIP"
+      },
+      {
+        "industry_name": "Wireless Telecommunications Carriers"
+      },
+      {
+        "industry_name": "Satellite Telecommunications Providers"
+      },
+      {
+        "industry_name": "Telecommunications Resellers"
+      },
+      {
+        "industry_name": "Radar & Satellite Operations"
+      },
+      {
+        "industry_name": "Movie & Video Production"
+      },
+      {
+        "industry_name": "Television Production"
+      },
+      {
+        "industry_name": "Movie & Video Distribution"
+      },
+      {
+        "industry_name": "Movie Theaters"
+      },
+      {
+        "industry_name": "Video Postproduction Services"
+      },
+      {
+        "industry_name": "Data Processing & Hosting Services"
+      },
+      {
+        "industry_name": "Search Engines"
+      },
+      {
+        "industry_name": "Video Games"
+      }
+    ]
+  },
+  {
+    "category": "Finance & Insurance",
+    "industries": [
+      {
+        "industry_name": "Custody, Asset & Securities Services"
+      },
+      {
+        "industry_name": "Commercial Banking"
+      },
+      {
+        "industry_name": "Credit Unions"
+      },
+      {
+        "industry_name": "Savings Institutions & Other Depository Credit Intermediation"
+      },
+      {
+        "industry_name": "Credit Card Issuing"
+      },
+      {
+        "industry_name": "Auto Leasing, Loans & Sales Financing"
+      },
+      {
+        "industry_name": "Real Estate Loans & Collateralized Debt"
+      },
+      {
+        "industry_name": "Loan Brokers"
+      },
+      {
+        "industry_name": "Credit Card Processing & Money Transferring"
+      },
+      {
+        "industry_name": "Loan Administration, Check Cashing & Other Services"
+      },
+      {
+        "industry_name": "Investment Banking & Securities Intermediation"
+      },
+      {
+        "industry_name": "Commodity Contracts Intermediation"
+      },
+      {
+        "industry_name": "Stock & Commodity Exchanges"
+      },
+      {
+        "industry_name": "Venture Capital & Principal Trading"
+      },
+      {
+        "industry_name": "Portfolio Management & Investment Advice"
+      },
+      {
+        "industry_name": "Life Insurance & Annuities"
+      },
+      {
+        "industry_name": "Health & Medical Insurance"
+      },
+      {
+        "industry_name": "Property, Casualty and Direct Insurance"
+      },
+      {
+        "industry_name": "Reinsurance Carriers"
+      },
+      {
+        "industry_name": "Insurance Brokers & Agencies"
+      },
+      {
+        "industry_name": "Third-Party Administrators & Insurance Claims Adjusters"
+      },
+      {
+        "industry_name": "Retirement & Pension Plans"
+      },
+      {
+        "industry_name": "Health & Welfare Funds"
+      },
+      {
+        "industry_name": "Workers' Compensation & Other Insurance Funds"
+      },
+      {
+        "industry_name": "Open-End Investment Funds"
+      },
+      {
+        "industry_name": "Trusts & Estates"
+      },
+      {
+        "industry_name": "Real Estate Investment Trusts"
+      },
+      {
+        "industry_name": "Private Equity, Hedge Funds & Investment Vehicles"
+      }
+    ]
+  },
+  {
+    "category": "Real Estate & Rental & Leasing",
+    "industries": [
+      {
+        "industry_name": "Truck Rental"
+      },
+      {
+        "industry_name": "Apartment Rental"
+      },
+      {
+        "industry_name": "Commercial Leasing"
+      },
+      {
+        "industry_name": "Storage & Warehouse Leasing"
+      },
+      {
+        "industry_name": "Land Leasing"
+      },
+      {
+        "industry_name": "Real Estate Sales & Brokerage"
+      },
+      {
+        "industry_name": "Property Management"
+      },
+      {
+        "industry_name": "Real Estate Appraisal"
+      },
+      {
+        "industry_name": "Real Estate Asset Management & Consulting"
+      },
+      {
+        "industry_name": "Car Rental"
+      },
+      {
+        "industry_name": "Consumer Electronics & Appliances Rental"
+      },
+      {
+        "industry_name": "Formal Wear & Costume Rental"
+      },
+      {
+        "industry_name": "DVD, Game & Video Rental"
+      },
+      {
+        "industry_name": "Tool & Equipment Rental"
+      },
+      {
+        "industry_name": "Heavy Equipment Rental"
+      },
+      {
+        "industry_name": "Computer & Printer Leasing"
+      },
+      {
+        "industry_name": "Industrial Equipment Rental & Leasing"
+      },
+      {
+        "industry_name": "Intellectual Property Licensing"
+      }
+    ]
+  },
+  {
+    "category": "Professional, Scientific & Technical Services",
+    "industries": [
+      {
+        "industry_name": "Management Consulting"
+      },
+      {
+        "industry_name": "Law Firms"
+      },
+      {
+        "industry_name": "Conveyancing Services"
+      },
+      {
+        "industry_name": "Payroll & Bookkeeping Services"
+      },
+      {
+        "industry_name": "Accounting Services"
+      },
+      {
+        "industry_name": "Tax Preparation Services"
+      },
+      {
+        "industry_name": "HR Consulting"
+      },
+      {
+        "industry_name": "Environmental Consulting"
+      },
+      {
+        "industry_name": "Scientific & Economic Consulting"
+      },
+      {
+        "industry_name": "Scientific Research & Development"
+      },
+      {
+        "industry_name": "Advertising Agencies"
+      },
+      {
+        "industry_name": "Public Relations Firms"
+      },
+      {
+        "industry_name": "Media Buying Agencies"
+      },
+      {
+        "industry_name": "Media Representative Firms"
+      },
+      {
+        "industry_name": "Billboard & Outdoor Advertising"
+      },
+      {
+        "industry_name": "Direct Mail Advertising"
+      },
+      {
+        "industry_name": "Print Advertising Distribution"
+      },
+      {
+        "industry_name": "Promotional Products"
+      },
+      {
+        "industry_name": "Market Research"
+      },
+      {
+        "industry_name": "Photography"
+      },
+      {
+        "industry_name": "Translation Services"
+      },
+      {
+        "industry_name": "Veterinary Services"
+      },
+      {
+        "industry_name": "Credit Counselors, Surveyors & Appraisers"
+      },
+      {
+        "industry_name": "Architects"
+      },
+      {
+        "industry_name": "Landscape Design"
+      },
+      {
+        "industry_name": "Engineering Services"
+      },
+      {
+        "industry_name": "Building Inspectors"
+      },
+      {
+        "industry_name": "Geophysical Services"
+      },
+      {
+        "industry_name": "Surveying & Mapping Services"
+      },
+      {
+        "industry_name": "Laboratory Testing Services"
+      },
+      {
+        "industry_name": "Interior Designers"
+      },
+      {
+        "industry_name": "Industrial Designers"
+      },
+      {
+        "industry_name": "Graphic Designers"
+      },
+      {
+        "industry_name": "Fashion Designers"
+      },
+      {
+        "industry_name": "IT Consulting"
+      }
+    ]
+  },
+  {
+    "category": "Administration, Business Support & Waste Management Services",
+    "industries": [
+      {
+        "industry_name": "Human Resources & Benefits Administration"
+      },
+      {
+        "industry_name": "Security Services"
+      },
+      {
+        "industry_name": "Correctional Facilities"
+      },
+      {
+        "industry_name": "Security Alarm Services"
+      },
+      {
+        "industry_name": "Employment & Recruiting Agencies"
+      },
+      {
+        "industry_name": "Pest Control"
+      },
+      {
+        "industry_name": "Office Staffing & Temp Agencies"
+      },
+      {
+        "industry_name": "Janitorial Services"
+      },
+      {
+        "industry_name": "Professional Employer Organizations"
+      },
+      {
+        "industry_name": "Landscaping Services"
+      },
+      {
+        "industry_name": "Document Preparation Services"
+      },
+      {
+        "industry_name": "Carpet Cleaning"
+      },
+      {
+        "industry_name": "Telemarketing & Call Centers"
+      },
+      {
+        "industry_name": "Packaging & Labeling Services"
+      },
+      {
+        "industry_name": "Business Service Centers"
+      },
+      {
+        "industry_name": "Trade Show and Conference Planning"
+      },
+      {
+        "industry_name": "Debt Collection Agencies"
+      },
+      {
+        "industry_name": "Waste Collection Services"
+      },
+      {
+        "industry_name": "Credit Bureaus & Rating Agencies"
+      },
+      {
+        "industry_name": "Waste Treatment & Disposal Services"
+      },
+      {
+        "industry_name": "Travel Agencies"
+      },
+      {
+        "industry_name": "Remediation & Environmental Cleanup Services"
+      },
+      {
+        "industry_name": "Tour Operators"
+      },
+      {
+        "industry_name": "Recycling Facilities"
+      },
+      {
+        "industry_name": "Convention & Visitor Bureaus"
+      },
+      {
+        "industry_name": "Portable Toilet Rental & Septic Tank Cleaning"
+      }
+    ]
+  },
+  {
+    "category": "Educational Services",
+    "industries": [
+      {
+        "industry_name": "Public Schools"
+      },
+      {
+        "industry_name": "Business Certification & IT Schools"
+      },
+      {
+        "industry_name": "Private Schools"
+      },
+      {
+        "industry_name": "Trade & Technical Schools"
+      },
+      {
+        "industry_name": "Community Colleges"
+      },
+      {
+        "industry_name": "Fine Arts Schools"
+      },
+      {
+        "industry_name": "Colleges & Universities"
+      },
+      {
+        "industry_name": "Sports Coaching"
+      },
+      {
+        "industry_name": "For-Profit Universities"
+      },
+      {
+        "industry_name": "Language Instruction"
+      },
+      {
+        "industry_name": "Business Coaching"
+      },
+      {
+        "industry_name": "Tutoring & Driving Schools"
+      },
+      {
+        "industry_name": "Testing & Educational Support"
+      }
+    ]
+  },
+  {
+    "category": "Healthcare & Social Assistance",
+    "industries": [
+      {
+        "industry_name": "Hospitals"
+      },
+      {
+        "industry_name": "Primary Care Doctors"
+      },
+      {
+        "industry_name": "Specialist Doctors"
+      },
+      {
+        "industry_name": "Dentists"
+      },
+      {
+        "industry_name": "Chiropractors"
+      },
+      {
+        "industry_name": "Optometrists"
+      },
+      {
+        "industry_name": "Psychologists, Social Workers & Marriage Counselors"
+      },
+      {
+        "industry_name": "Physical Therapists"
+      },
+      {
+        "industry_name": "Podiatrists"
+      },
+      {
+        "industry_name": "Alternative Healthcare Providers"
+      },
+      {
+        "industry_name": "Family Planning & Abortion Clinics"
+      },
+      {
+        "industry_name": "Mental Health & Substance Abuse Clinics"
+      },
+      {
+        "industry_name": "Emergency & Other Outpatient Care Centers"
+      },
+      {
+        "industry_name": "Diagnostic & Medical Laboratories"
+      },
+      {
+        "industry_name": "Home Care Providers"
+      },
+      {
+        "industry_name": "Ambulance Services"
+      },
+      {
+        "industry_name": "Blood & Organ Banks"
+      },
+      {
+        "industry_name": "Psychiatric Hospitals"
+      },
+      {
+        "industry_name": "Specialty Hospitals"
+      },
+      {
+        "industry_name": "Nursing Care Facilities"
+      },
+      {
+        "industry_name": "Residential Intellectual Disability Facilities"
+      },
+      {
+        "industry_name": "Mental Health & Substance Abuse Centers"
+      },
+      {
+        "industry_name": "Retirement Communities"
+      },
+      {
+        "industry_name": "Orphanages & Group Homes"
+      },
+      {
+        "industry_name": "Adoption & Child Welfare Services"
+      },
+      {
+        "industry_name": "Elderly & Disabled Services"
+      },
+      {
+        "industry_name": "Family Counseling & Crisis Intervention Services"
+      },
+      {
+        "industry_name": "Community Food Services"
+      },
+      {
+        "industry_name": "Community Housing & Homeless Shelters"
+      },
+      {
+        "industry_name": "Natural Disaster & Emergency Relief Services"
+      },
+      {
+        "industry_name": "Job Training & Career Counseling"
+      },
+      {
+        "industry_name": "Day Care"
+      }
+    ]
+  },
+  {
+    "category": "Arts, Entertainment & Recreation",
+    "industries": [
+      {
+        "industry_name": "Amusement Parks"
+      },
+      {
+        "industry_name": "Musical Groups & Artists"
+      },
+      {
+        "industry_name": "Sports Franchises"
+      },
+      {
+        "industry_name": "Racing & Individual Sports"
+      },
+      {
+        "industry_name": "Concert & Event Promotion"
+      },
+      {
+        "industry_name": "Celebrity & Sports Agents"
+      },
+      {
+        "industry_name": "Performers & Creative Artists"
+      },
+      {
+        "industry_name": "Museums"
+      },
+      {
+        "industry_name": "Historic Sites"
+      },
+      {
+        "industry_name": "National Parks & Other Nature Institutions"
+      },
+      {
+        "industry_name": "Arcade, Food & Entertainment Complexes"
+      },
+      {
+        "industry_name": "Non-Hotel Casinos"
+      },
+      {
+        "industry_name": "Lotteries & Native American Casinos"
+      },
+      {
+        "industry_name": "Golf Courses & Country Clubs"
+      },
+      {
+        "industry_name": "Ski & Snowboard Resorts"
+      },
+      {
+        "industry_name": "Marinas"
+      },
+      {
+        "industry_name": "Gym, Health & Fitness Clubs"
+      },
+      {
+        "industry_name": "Bowling Centers"
+      },
+      {
+        "industry_name": "Golf Driving Ranges & Family Fun Centers"
+      }
+    ]
+  },
+  {
+    "category": "Accommodation & Food Services",
+    "industries": [
+      {
+        "industry_name": "Fast Food Restaurants"
+      },
+      {
+        "industry_name": "Coffee & Snack Shops"
+      },
+      {
+        "industry_name": "Hotels & Motels"
+      },
+      {
+        "industry_name": "Casino Hotels"
+      },
+      {
+        "industry_name": "Bed & Breakfast & Hostel Accommodations"
+      },
+      {
+        "industry_name": "Food Service Contractors"
+      },
+      {
+        "industry_name": "Caterers"
+      },
+      {
+        "industry_name": "Street Vendors"
+      },
+      {
+        "industry_name": "Chain Restaurants"
+      },
+      {
+        "industry_name": "Single Location Full-Service Restaurants"
+      },
+      {
+        "industry_name": "Bars & Nightclubs"
+      }
+    ]
+  },
+  {
+    "category": "Artifacts & Fossils",
+    "industries": [
+      { "industry_name": "Archaeological Excavation" },
+      { "industry_name": "Paleontology Research" },
+      { "industry_name": "Artifact Conservation" },
+      { "industry_name": "Fossil Collection & Trading" },
+      { "industry_name": "Art Authentication & Appraisal" },
+      { "industry_name": "Historical Preservation" },
+      { "industry_name": "Museum & Exhibition Curation" },
+      { "industry_name": "Artifact Reproduction & Replicas" },
+      { "industry_name": "Ancient Manuscript Restoration" },
+      { "industry_name": "Artifact Auction Houses" },
+      { "industry_name": "Fossil Preparation & Cleaning" },
+      { "industry_name": "Artifact Trading & Sales" },
+      { "industry_name": "Cultural Heritage Protection" },
+      { "industry_name": "Fossil Exploration & Excavation" },
+      { "industry_name": "Artifact Restoration" },
+      { "industry_name": "Historical Document Preservation" },
+      { "industry_name": "Fossil Trading & Sales" },
+      { "industry_name": "Artifact Research & Documentation" },
+      { "industry_name": "Antiquities & Collectibles Stores" },
+      { "industry_name": "Fossil Reproduction & Replicas" },
+      { "industry_name": "Artifact Storage & Cataloging" },
+      { "industry_name": "Archaeological Survey & Assessment" },
+      { "industry_name": "Fossil Museum & Exhibitions" },
+      { "industry_name": "Artifact Dealers & Traders" },
+      { "industry_name": "Paleoanthropology Studies" },
+      { "industry_name": "Ancient Relics Restoration" },
+      { "industry_name": "Fossil Identification & Authentication" },
+      { "industry_name": "Artifact Collectors' Clubs" },
+      { "industry_name": "Artifacts & Fossils Consultation" }
+    ]
+  },
+  {
+    "category": "Sea & Marine",
+    "industries": [
+      { "industry_name": "Marine Conservation" },
+      { "industry_name": "Deep Sea Exploration" },
+      { "industry_name": "Marine Biotechnology" },
+      { "industry_name": "Aquaculture & Fish Farming" },
+      { "industry_name": "Marine Transportation & Shipping" },
+      { "industry_name": "Marine Equipment & Supplies" },
+      { "industry_name": "Offshore Drilling & Exploration" },
+      { "industry_name": "Marine Tourism & Recreation" },
+      { "industry_name": "Underwater Salvage Operations" },
+      { "industry_name": "Marine Research & Education" },
+      { "industry_name": "Harbors & Ports Operations" },
+      { "industry_name": "Marine Renewable Energy" },
+      { "industry_name": "Seafood Processing & Distribution" },
+      { "industry_name": "Marine Pollution Control" },
+      { "industry_name": "Nautical Charting & Navigation" },
+      { "industry_name": "Coral Reef Preservation" },
+      { "industry_name": "Marine Wildlife Rehabilitation" },
+      { "industry_name": "Underwater Archaeology" },
+      { "industry_name": "Seaweed Farming" },
+      { "industry_name": "Marine Engineering & Construction" },
+      { "industry_name": "Submarine Manufacturing & Operations" },
+      { "industry_name": "Marine Law & Policy" },
+      { "industry_name": "Oceanographic Institutions" },
+      { "industry_name": "Marine Safety & Rescue Services" },
+      { "industry_name": "Desalination Plants" },
+      { "industry_name": "Marine-based Pharmaceuticals" },
+      { "industry_name": "Coastal Zone Management" },
+      { "industry_name": "Marine Insurance & Risk Management" },
+      { "industry_name": "Marine-based Renewable Resources" },
+      { "industry_name": "Ocean Thermal Energy Conversion" }
+    ]
+  },
+
+  {
+    "category": "Other Services (Except Public Administration)",
+    "industries": [
+      {
+        "industry_name": "Auto Mechanics"
+      },
+      {
+        "industry_name": "Car Body Shops"
+      },
+      {
+        "industry_name": "Car Wash & Auto Detailing"
+      },
+      {
+        "industry_name": "Oil Change Services"
+      },
+      {
+        "industry_name": "Electronic & Computer Repair Services"
+      },
+      {
+        "industry_name": "Machinery Maintenance & Heavy"
+      },
+      {
+        "industry_name": "Cemetery Services"
+      },
+      {
+        "industry_name": "Laundromats"
+      },
+      {
+        "industry_name": "Dry Cleaners"
+      },
+      {
+        "industry_name": "Industrial Laundry & Linen Supply"
+      },
+      {
+        "industry_name": "Pet Grooming & Boarding"
+      },
+      {
+        "industry_name": "Photofinishing"
+      },
+      {
+        "industry_name": "Appliance Repair"
+      },
+      {
+        "industry_name": "Furniture Repair & Reupholstery"
+      },
+      {
+        "industry_name": "Shoe Repair"
+      },
+      {
+        "industry_name": "Parking Lots & Garages"
+      },
+      {
+        "industry_name": "Dating Services"
+      },
+      {
+        "industry_name": "Religious Organizations"
+      },
+      {
+        "industry_name": "Donations, Grants & Endowment"
+      },
+      {
+        "industry_name": "Conservation & Human Rights Organizations"
+      },
+      {
+        "industry_name": "Civic, Social & Youth Organizations"
+      },
+      {
+        "industry_name": "Homeowners' Associations"
+      },
+      {
+        "industry_name": "Maids, Nannies & Gardeners"
+      },
+      {
+        "industry_name": "Hair & Nail Salons"
+      },
+      {
+        "industry_name": "Weight Loss Services"
+      },
+      {
+        "industry_name": "Hair Loss Treatment & Removal"
+      },
+      {
+        "industry_name": "Tanning Salons"
+      },
+      {
+        "industry_name": "Funeral Homes"
+      }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+.todo-container {
+  display: flex;
+  max-width: 1500px; /* Maximum width */
+  height: 800px; /* Fixed height */
+  margin: auto;
+}
+
+.todo-list {
+  max-height: 500px; /* Set a fixed maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-bottom: 20px;
+  padding-right: 5px; /* Optional: To avoid the scrollbar overlapping content */
+}
+
+.todo-search,
+.todo-view {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.todo-search {
+  width: 30%; /* Slightly reduced width */
+  background-color: #fff;
+}
+
+.todo-view {
+  width: 70%; /* Increased width for more content space */
+  background-color: #eef1f5;
+}
+
+.todo-search-bar {
+  width: calc(100% - 20px);
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #d1d1d1;
+  border-radius: 8px;
+  outline: none;
+}
+
+.todo-item {
+  background: linear-gradient(to bottom right, #ffffff, #f7f7f7);
+  border: 1px solid #e1e1e1;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  position: relative; /* For positioning any absolute elements inside */
+  cursor: pointer; /* Optional: if the items are interactive */
+}
+
+.todo-item h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.todo-item p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.todo-item:hover {
+  border-color: #b3b3b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.todo-control {
+  display: flex;
+  justify-content: space-between; /* Equal spacing */
+  margin-bottom: 20px;
+}
+
+.todo-control button {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-bottom: 3px solid transparent; /* Add border bottom */
+  background-color: transparent; /* Remove background color */
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.todo-control button:last-child {
+  margin-right: 0;
+}
+
+.todo-control button:hover {
+  color: #333;
+  border-bottom: 3px solid #333; /* Border color on hover */
+}
+
+.todo-control button.active {
+  color: #2c3e50;
+  border-bottom: 3px solid #2c3e50; /* Active button border */
+}
+
+.todo-info {
+  background-color: #ffffff; /* White background for the info area */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for depth */
+}
+
+.todo-info h1 {
+  color: #2c3e50;
+  font-size: 1.8rem; /* Larger font size for the title */
+  margin-bottom: 15px; /* Space below the title */
+}
+
+.todo-info p {
+  color: #34495e;
+  font-size: 1.1rem;
+  line-height: 1.6; /* Improved line height for readability */
+  margin-bottom: 10px; /* Space between paragraphs */
+}
+
+/* Button styling */
+.todo-info button {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside the button */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Cursor on hover */
+  transition: background-color 0.3s ease; /* Transition for hover effect */
+  margin-top: 20px; /* Space above the button */
+}
+
+.todo-info button:hover {
+  background-color: #43a047; /* Darker green on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .todo-container {
+    flex-direction: column;
+  }
+
+  .todo-search,
+  .todo-view {
+    width: 100%;
+  }
+
+  .todo-control button {
+    margin-bottom: 10px;
+  }
+}

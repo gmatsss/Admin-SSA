@@ -1,0 +1,35 @@
+.tabs {
+  display: flex;
+  justify-content: start; /* Align tabs to the start */
+  background-color: white; /* White background for the whole tab container */
+}
+
+.boardtab {
+  background-color: white; /* White background for individual tabs */
+  border: none; /* No border for individual tabs */
+  padding: 10px 15px; /* Slightly reduced padding */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
+  margin-right: 2px; /* Reduced margin for less space between tabs */
+  color: #333; /* Darker text color for better contrast */
+}
+
+.boardtab:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+  color: green; /* Green text color for active tab */
+}
+
+.boardtab.active {
+  border-radius: 0px;
+  color: green; /* Green text color for active tab */
+  border-bottom: 3px solid limegreen; /* Bottom border for active tab */
+  margin-bottom: -1px; /* Adjust for border thickness */
+}
+
+.tab-content {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

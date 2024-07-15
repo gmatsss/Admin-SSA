@@ -1,0 +1,55 @@
+.container-config {
+  width: 100%;
+  max-width: 100%; /* Full width */
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f7fafc; /* Light background for the whole container */
+}
+
+.row-config {
+  padding: 10px;
+}
+
+/* Styling for the tabs */
+.row-config:first-child {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  background-color: #e2e8f0; /* Slightly different background for tabs */
+  border-radius: 8px 8px 0 0; /* Rounded corners on the top */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Individual tab styling */
+.row-config:first-child div {
+  cursor: pointer;
+  padding: 10px 20px;
+  position: relative;
+  color: #4a5568;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+/* Hover effect for tabs */
+.row-config:first-child div:hover {
+  color: #2d3748;
+  background-color: #cbd5e0; /* Slightly change background on hover */
+}
+
+/* Active tab styling */
+.row-config:first-child div.active {
+  color: #2d3748;
+  background-color: #fff; /* White background for active tab */
+  border-bottom: 2px solid #4299e1; /* Underline for active tab */
+  border-radius: 5px 5px 0 0; /* Rounded corners on the top */
+}
+
+/* Info section styling */
+.row-config:last-child {
+  color: #333;
+  background-color: #fff; /* White background for content */
+  border-radius: 0 0 8px 8px; /* Rounded corners on the bottom */
+  min-height: 150px; /* Adjust as needed */
+  padding: 15px;
+  box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}

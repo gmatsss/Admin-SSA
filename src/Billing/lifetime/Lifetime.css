@@ -1,0 +1,245 @@
+.lifetime-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+
+  font-family: "Arial", sans-serif; /* Modern font */
+}
+
+.lifetime-details {
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
+  color: #856404; /* Darker text for contrast */
+}
+
+.lifetime-details h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.lifetime-details p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Additional styling for emojis */
+.lifetime-details p > emoji {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.payment-container {
+  flex: 1;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.checkout-card {
+  flex: 1;
+  padding: 20px;
+  background-image: linear-gradient(
+    to right top,
+    #0d6efd,
+    /* Bright blue */ rgb(39, 179, 223) /* Cyan-like color */
+  ); /* Gradient blending blue and cyan */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for a lifted effect */
+  border: 1px solid rgba(39, 179, 223, 0.5); /* Subtle border matching the gradient */
+}
+
+/* Hover effect for the card */
+.checkout-card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-header {
+  color: #333; /* Dark text for a more subtle look */
+  padding: 10px 15px; /* Adjust padding for a less bulky appearance */
+  font-weight: normal; /* Less boldness for a lighter header */
+  font-size: 36px; /* Slightly smaller font size */
+  text-align: center;
+  background-color: transparent; /* Remove background color for a clean look */
+
+  border-top-left-radius: 10px; /* Keep rounded corners at the top */
+  border-top-right-radius: 10px;
+  position: relative; /* Needed for pseudo-elements */
+}
+
+/* Adding a pseudo-element for a decorative underline */
+.card-header::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Positioning below the header */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%; /* Width of the underline */
+  height: 2px;
+  background-color: #007bff; /* A pop of color for the underline */
+  border-radius: 1px;
+}
+.card-body {
+  margin-top: 30px;
+  padding: 20px;
+  overflow-y: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the bot-selection items */
+}
+
+.bot-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content within each bot-selection */
+  width: 80%; /* Set a specific width */
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  border: 1px solid #ddd;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Initial subtle shadow */
+  position: relative;
+}
+
+.bot-selection .fa-eye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.bot-details-modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%; /* Medium size */
+  max-width: 600px; /* Maximum width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .bot-details-modal {
+    width: 80%; /* Smaller width on smaller screens */
+  }
+}
+
+.bot-selection:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.bot-selection label {
+  margin-left: 10px;
+  font-size: 17px; /* Slightly larger font size */
+  cursor: pointer;
+  flex-grow: 1;
+  text-align: left; /* Align text to the left */
+}
+
+.bot-selection input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: #007bff;
+  transform: scale(1); /* Default scale */
+  transition: transform 0.2s ease;
+}
+
+.bot-selection input[type="checkbox"]:checked {
+  transform: scale(1.2); /* Scale up when checked */
+}
+
+/* Optional: Add a subtle hover effect to the label */
+.bot-selection label:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+.card-footer {
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  display: flex;
+  justify-content: center; /* Center the button */
+  background-color: transparent; /* Remove background color */
+}
+
+.checkout-button {
+  background-color: rgb(224, 63, 109); /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase; /* Optional: Makes text uppercase for emphasis */
+  font-size: 16px;
+}
+
+.checkout-button:hover {
+  background-color: rgb(224, 63, 109); /* Darker shade for hover effect */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.checkout-button:focus {
+  outline: none; /* Removes the default focus outline */
+  box-shadow: 0 0 0 2px rgba(40, 167, 69, 0.5); /* Adds a subtle focus effect */
+}
+
+.final-cost-container {
+  background-color: #fff3cd; /* Light yellow background for emphasis */
+  border-left: 4px solid #856404; /* Thick left border for visual impact */
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: start; /* Space out items */
+}
+
+.final-cost-container strong {
+  color: #856404; /* Dark color for emphasis */
+  font-size: 20px; /* Larger font size for visibility */
+}
+
+@media (max-width: 768px) {
+  .final-cost-container {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start on smaller screens */
+  }
+
+  .final-cost-container strong,
+  .final-cost-container p {
+    font-size: 18px; /* Slightly smaller font on mobile devices */
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .lifetime-container {
+    flex-direction: column;
+  }
+
+  .lifetime-details,
+  .checkout-card {
+    margin: 10px 0;
+  }
+}

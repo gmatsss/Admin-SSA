@@ -1,0 +1,177 @@
+.userlist {
+  display: flex;
+  flex-direction: column;
+  height: 800px; /* Maximum height */
+  max-height: 800px; /* Maximum height */
+  overflow-y: auto; /* Vertical scrolling */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-card {
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-card.active {
+  border-color: violet; /* Active border color */
+  background-color: #f3e8ff; /* Light violet background for active state */
+}
+
+.user-field {
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-size: 14px; /* Adjust font size for better readability */
+}
+
+.user-field svg {
+  margin-right: 10px;
+  color: #007bff; /* Icon color */
+  font-size: 16px; /* Larger icon size */
+}
+
+.user-field:first-child {
+  font-size: 16px; /* Slightly larger font for fullname */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+.user-field:not(:last-child) {
+  border-bottom: 1px solid #eee; /* Separator for fields */
+  padding-bottom: 8px;
+  width: 100%; /* Full width for consistent alignment */
+}
+
+.search-input {
+  padding: 10px 20px;
+  border: 2px solid #e0e0e0; /* Lighter and thicker border */
+  border-radius: 20px; /* More rounded corners */
+  margin-right: 10px;
+  flex-grow: 1;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 16px; /* Larger font size */
+  color: #333; /* Darker text color */
+  background-color: #fafafa; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.search-input::placeholder {
+  color: #999; /* Lighter color for placeholder text */
+}
+
+.search-input:focus {
+  border-color: #4a90e2; /* Highlight border on focus */
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.5); /* Glowing effect on focus */
+}
+
+/* Sorting Buttons Container */
+.sorting-buttons {
+  display: flex;
+  justify-content: space-between; /* Distribute space between input and buttons */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px;
+  gap: 10px; /* Space between elements */
+}
+
+.sorting-button {
+  padding: 8px 15px;
+  background-color: #e0e0e0; /* Neutral background */
+  color: #333; /* Dark text for contrast */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between icon and text */
+}
+
+.sorting-button.active {
+  background-color: #4a90e2; /* Highlight active button */
+  color: white;
+}
+
+.sorting-button:hover {
+  background-color: #d1d1d1; /* Hover effect */
+}
+
+/* Icon for sorting */
+.sort-icon {
+  font-size: 12px;
+}
+
+.email-user {
+  background-color: #4a90e2; /* Blue background */
+  color: white; /* White text */
+  padding: 6px 15px; /* Adjust padding for a less bulky look */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor change to indicate it's clickable */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  display: flex; /* Flex display to align icon and text */
+  align-items: center; /* Center-align items vertically */
+  font-size: 14px; /* Adjust font size */
+  width: auto; /* Auto width based on content */
+  min-width: 100px; /* Minimum width */
+}
+
+.email-user svg {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #357abd;
+}
+
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

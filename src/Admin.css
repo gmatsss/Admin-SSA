@@ -1,0 +1,69 @@
+/* Global styles targeting the whole project */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900; /* Extra bold weight for headings */
+  color: #2c2c2c; /* Darker shade for emphasis */
+}
+
+/* Style for the parent container */
+.admin-container {
+  display: flex; /* Establishes a flex container */
+  min-height: 100vh; /* Full height of the viewport */
+  background-color: rgb(250, 250, 250);
+}
+
+/* Style for the main content */
+.main-content {
+  padding: 15px;
+  flex-grow: 1; /* Takes up the remaining space */
+  height: 100vh;
+}
+
+.chat-toggle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: url("./img/logo_small.png");
+  background-size: cover; /* Cover the entire button */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  color: #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.chat-toggle-button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow size for "lifted" effect */
+  transform: translateY(
+    -4px
+  ); /* Slight upward shift to give a "lifting" feeling */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Slight white overlay for a "highlight" effect */
+}
+
+.chat-toggle-button.chat-open {
+  display: none;
+}

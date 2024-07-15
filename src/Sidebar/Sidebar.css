@@ -1,0 +1,168 @@
+/* Base styling for the sidebar container */
+.sidebar-container {
+  display: flex;
+  align-items: start;
+  font-family: "Roboto", sans-serif; /* Modern font */
+}
+
+/* Main sidebar styling */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 250px;
+  background: linear-gradient(to right, #434343 0%, #000000 100%);
+  color: white;
+  transition: all 0.5s ease-in-out;
+  overflow-x: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  margin-left: 10px;
+  padding: 15px 10px; /* Adjusted padding */
+}
+
+/* Styling for sidebar content */
+.sidebar-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+/* Styling for sidebar items */
+.sidebar-item {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.1em; /* Adjusted for better readability */
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s, padding 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 15px; /* Increased padding for hover effect */
+}
+
+/* Styling for icons in the sidebar */
+.sidebar-item img {
+  width: 30px;
+  margin-right: 10px;
+  filter: invert(0.9); /* Lighten the icons */
+  transition: filter 0.3s;
+}
+
+.sidebar-item:hover img {
+  filter: invert(0.5); /* Darken icons on hover */
+}
+
+/* Styling for active sidebar item */
+.active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px 15px; /* Consistent padding with hover effect */
+}
+
+/* Styling for collapsed sidebar */
+.sidebar.collapsed {
+  width: 50px;
+}
+
+/* Styling for the tooltips in sidebar */
+.tooltip-sidebar {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  color: white;
+  border: 1px solid #777; /* Border for distinction */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  z-index: 2000;
+  left: 60px;
+  opacity: 0.9;
+}
+
+.sidebar.collapsed .sidebar-item:hover .tooltip-sidebar {
+  display: block;
+}
+
+/* Styling for the sidebar logo */
+.logo-sidebar {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+/* Styling for sidebar scrollbar */
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.sidebar.collapsed .sidebar-item img {
+  width: 20px; /* Reduced width for icons */
+  margin: 0 auto; /* Center the icon */
+  display: block; /* Ensure icons are block level */
+}
+/* General styling for the sidebar button */
+.sidebar-button {
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Circular button */
+  padding: 10px; /* Uniform padding for a circle */
+  cursor: pointer;
+  font-size: 1.2em; /* Larger font size for visibility */
+  width: 30px; /* Fixed width */
+  height: 30px; /* Fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s, left 0.5s; /* Matched to sidebar's transition duration */
+  position: absolute; /* Positioning the button absolutely */
+  left: 250px; /* Adjust based on sidebar width */
+  transform: rotate(0deg); /* Initial rotation state */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adding shadow for visibility */
+}
+
+/* Styling for button hover effect */
+.sidebar-button:hover {
+  background-color: #555;
+  transform: scale(1.1) rotate(0deg); /* Maintain rotation state on hover */
+}
+
+/* Styling adjustments when the sidebar is collapsed */
+.sidebar.collapsed .sidebar-button {
+  margin: 0 auto; /* Center the button */
+  left: 50px; /* Positioning for collapsed state */
+  transform: rotate(0deg); /* Rotate the button to the right */
+}
+
+.sidebar.collapsed .sidebar-item > span,
+.sidebar.collapsed .tooltip-sidebar {
+  display: none; /* Hide text and tooltips */
+}
+
+.sidebar.collapsed .sidebar-item {
+  justify-content: center; /* Center the items */
+  padding: 8px 0; /* Adjust padding */
+}
+
+.sidebar.collapsed .sidebar-item:hover {
+  background-color: transparent; /* No background change on hover */
+  padding: 8px 0; /* Consistent padding */
+}
+
+.icon-invert {
+  filter: invert(1);
+}

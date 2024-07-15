@@ -1,0 +1,98 @@
+.roadmap-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.roadmap-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roadmap-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.roadmap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.roadmap-title {
+  color: #007bff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.roadmap-description {
+  color: #343a40;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.roadmap-dates {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.roadmap-date {
+  background: #f8f9fa;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.roadmap-likes-section {
+  display: flex;
+  align-items: center;
+}
+
+.like-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.like-button:hover {
+  background-color: #0056b3;
+}
+
+.like-icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: #007bff; /* Adjust color as needed */
+}
+
+.like-icon-button:hover {
+  color: #0056b3; /* Adjust hover color as needed */
+}
+
+.roadmap-likes {
+  color: #28a745;
+  font-size: 14px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust height as needed */
+}

@@ -1,0 +1,140 @@
+.yearly-bots-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.bot-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.bot-control-btn-yearly {
+  background-color: #6c63ff; /* New color for the yearly control button */
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin: 0 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.bot-control-btn-yearly:active {
+  transform: translateY(1px);
+}
+
+.bot-control-btn-yearly:hover {
+  background-color: #5a55d1; /* Darker shade on hover */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bot-count {
+  font-size: 1.2em;
+  margin: 0 6px;
+  display: inline-block;
+  min-width: 35px;
+  text-align: center;
+}
+
+.bot-details,
+.additional-details {
+  border: 1px solid #e0e0e0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.form-title,
+.bot-section-title {
+  color: #005f73;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  text-align: center; /* Center align titles */
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 20px;
+  color: #4a5568;
+  font-weight: 600;
+  font-size: 1.1em;
+  text-align: left; /* Align labels to the left */
+}
+
+textarea,
+.input-field {
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 25px;
+  border: 2px solid #cbd5e0;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.1em;
+  transition: border-color 0.3s ease;
+}
+
+textarea:focus,
+.input-field:focus {
+  border-color: #007bff;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15),
+    0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.submit-btn-yearly-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.submit-btn-yearly {
+  background-color: #ff7e67; /* New color for the yearly button */
+  color: white;
+  padding: 18px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-size: 1.2em;
+  border: none;
+}
+
+.submit-btn-yearly:hover {
+  background-color: #e5674f; /* Darker shade on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.MuiTooltip-tooltip.custom-tooltip-yearly {
+  max-width: 400px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 0.9em;
+  overflow-y: auto;
+  max-height: 250px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+.custom-tooltip-yearly::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-tooltip-yearly::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.custom-tooltip-yearly::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.custom-tooltip-yearly::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

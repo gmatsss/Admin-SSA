@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+// External Library Imports
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { ToastContainer, Zoom } from "react-toastify";
 
-function App() {
+// Component Imports
+import SignIn from "./Auth/SignIn/SignIn";
+import Admin from "./Admin";
+
+// Style Imports
+import "react-toastify/dist/ReactToastify.css";
+import SignUp from "./Auth/SignUp/SignUp";
+
+const App = () => {
+  // ToastContainer configurations for clarity
+  const toastConfig = {
+    position: "top-center",
+    autoClose: 1500,
+    hideProgressBar: false,
+    newestOnTop: false,
+    closeOnClick: true,
+    rtl: false,
+    pauseOnFocusLoss: true,
+    draggable: true,
+    pauseOnHover: true,
+    theme: "dark",
+    transition: Zoom,
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Toast Notifications Container */}
+      <ToastContainer {...toastConfig} />
+
+      {/* App Routes */}
+      <Routes>
+        <Route path="/" element={<SignIn />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/Admin/*" element={<Admin />} />
+      </Routes>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,46 @@
+.dns-setup-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dns-setup-form {
+  max-width: 800px; /* Adjust based on your preference */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Spacing between form elements */
+  justify-content: space-around; /* Evenly space the elements */
+}
+
+label {
+  flex-basis: 30%; /* Each label takes up 30% of the form width */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label input {
+  width: 100%; /* Full width of the label */
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.button-dns[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4a90e2; /* Primary color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Center the .button-dns */
+  margin-top: 15px;
+}
+
+.button-dns[type="submit"]:hover {
+  background-color: #357abd;
+}

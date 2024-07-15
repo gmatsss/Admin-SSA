@@ -1,0 +1,42 @@
+.announcement-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between announcement cards */
+}
+
+.announcement-box {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.announcement-box:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.announcement-title {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.announcement-description {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Optional: Add a decorative element like an icon or a colored bar */
+.announcement-box::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: #4a90e2; /* Choose a color that fits your theme */
+  border-radius: 2px;
+  margin-bottom: 15px;
+}

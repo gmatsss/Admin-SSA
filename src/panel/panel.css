@@ -1,0 +1,165 @@
+.panel-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-row {
+  display: flex;
+  margin-bottom: 1em;
+  align-items: flex-start; /* Ensure columns don't stretch to match heights */
+}
+
+.panel-col {
+  flex: 1;
+  padding: 1em;
+  box-sizing: border-box;
+  display: block; /* No need for flex here since we want natural block behavior */
+}
+
+.panel-video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.box {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  min-height: 200px; /* Set a minimum height, but allow the box to grow */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space evenly within the box */
+}
+
+/* Styling for the Welcome box */
+.box h1 {
+  margin-bottom: 1em; /* Added space below the header */
+  font-size: 2.5em; /* Increased font size for prominence */
+}
+
+.box p {
+  margin-bottom: 1.2em; /* Added space below the paragraph */
+}
+
+.box button {
+  margin-top: 1.2em;
+  margin-right: 0.5em;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+/* Start Training button */
+.start-training-btn {
+  background-color: limegreen;
+  color: #fff;
+}
+
+.start-training-btn:hover {
+  background-color: #32a042;
+}
+
+.start-training-btn:active {
+  transform: scale(0.95); /* Slightly scale down the button when clicked */
+}
+
+/* Submit ticket button */
+.submit-ticket-btn {
+  background-color: red;
+  color: #fff;
+}
+
+.submit-ticket-btn:hover {
+  background-color: #d32f2f;
+}
+
+.submit-ticket-btn:active {
+  transform: scale(0.95); /* Slightly scale down the button when clicked */
+}
+
+.blue-box {
+  background-color: #26baeb;
+}
+
+.blue-box h1 {
+  margin-bottom: 1em;
+  font-size: 2.5em;
+  color: #f1f1f1; /* Light text color to contrast with the red background */
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-item a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #f1f1f1;
+  display: block;
+  transition: color 0.3s;
+  border-radius: 4px;
+}
+
+.link-item a:hover {
+  color: #f1f1f1; /* Keep the same color on hover to remove the highlight effect */
+}
+
+.link-item p {
+  font-size: 1em;
+  color: rgb(51, 51, 51); /* Changed color to grey */
+}
+
+.red-box {
+  background-color: #df3f68;
+  padding: 1em; /* Add padding for better layout inside the box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space evenly within the box */
+}
+
+.red-box h1 {
+  margin-bottom: 1em;
+  font-size: 2.5em;
+  color: #f1f1f1; /* Light text color to contrast with the red background */
+}
+
+.red-box p {
+  font-size: 1.1em;
+  margin-bottom: 1em; /* Space between each line */
+  color: #f1f1f1; /* Light text color to contrast with the red background */
+  font-weight: 500; /* Slightly bolder font for better readability */
+}
+
+.red-box p:before {
+  content: "• "; /* Bullet point before each support item */
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .panel-container {
+    flex-direction: column;
+  }
+
+  .panel-row {
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+
+  .panel-col {
+    width: 100%; /* Take up the full width */
+    padding: 1em 0; /* Adjust padding for mobile */
+  }
+
+  .box {
+    min-height: auto; /* Remove the minimum height constraint for better adaptability */
+  }
+
+  .link-container {
+    flex-direction: column;
+  }
+}

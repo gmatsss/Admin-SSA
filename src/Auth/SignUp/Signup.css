@@ -1,0 +1,199 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginHolder {
+  width: 25%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__group {
+  position: relative;
+  padding: 20px 0 0;
+  width: 100%;
+}
+
+.form__fieldsign {
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 17px;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__fieldsign::placeholder {
+  color: transparent;
+}
+
+.form__fieldsign:placeholder-shown ~ .form__label {
+  font-size: 17px;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #9b9b9b;
+  pointer-events: none;
+}
+
+.form__fieldsign:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #116399, #38caef);
+  border-image-slice: 1;
+}
+
+.form__fieldsign:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #38caef;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__fieldsign:required,
+.form__fieldsign:invalid {
+  box-shadow: none;
+}
+
+.btn-signup {
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  min-width: 150px; /* Set a minimum width */
+  min-height: 50px; /* Set a minimum height */
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative; /* Add this line */
+}
+
+.btn-signup:hover {
+  background-color: #27b3df;
+  box-shadow: 0px 15px 20px rgba(51, 125, 235, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn-signup:active {
+  transform: translateY(-1px);
+}
+
+.rounded {
+  border-radius: 15px; /* Set the border-radius for rounded corners */
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .form__fieldsign {
+    font-size: 15px;
+    padding: 6px 0;
+  }
+
+  .form__label {
+    font-size: 15px;
+  }
+
+  .loginHolder {
+    width: 50%;
+  }
+}
+
+/* Media query for screens starting from 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .form__fieldsign {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+
+  .form__label {
+    font-size: 14px;
+  }
+
+  .loginHolder {
+    width: 70%;
+  }
+}
+
+/* Media query for screens starting from 320px to 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .form__fieldsign {
+    font-size: 13px;
+    padding: 4px 0;
+  }
+
+  .form__label {
+    font-size: 13px;
+  }
+
+  .loginHolder {
+    width: 100%;
+  }
+}
+
+.lds-dual-ring {
+  position: absolute; /* Add this line */
+  top: 50%; /* Add this line */
+  left: 50%; /* Add this line */
+  transform: translate(-50%, -50%); /* Add this line */
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 6px solid #27b3df; /* Default color */
+  border-color: #27b3df transparent #27b3df transparent; /* Default color */
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+/* Change the loader color when the button is hovered */
+.btn-signup:hover .lds-dual-ring:after {
+  border-color: #fff transparent #fff transparent; /* Hover color */
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

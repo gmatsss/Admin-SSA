@@ -1,0 +1,205 @@
+.testbot {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.botlist {
+  max-height: 700px;
+  overflow-y: auto;
+  width: 30%; /* Keeps the .botlist width */
+  padding: 10px;
+  border-right: 1px solid #e0e0e0;
+  background-color: #f9f9f9;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.botchat {
+  flex-grow: 1; /* Allows .botchat to take up the remaining space */
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  overflow-y: auto; /* Updated to allow scrolling within .botchat */
+}
+
+/*botlist*/
+.bot-card {
+  background-color: #fff;
+  border-radius: 10px; /* Less rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px 0;
+  text-align: left; /* Align text to the left for a cleaner look */
+  width: 100%; /* Adjust the size as needed */
+  height: auto; /* Auto height for content flexibility */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Spacing out content */
+}
+
+.bot-card::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* Adjust as necessary */
+  left: 0;
+  right: 0;
+  height: 10px; /* Adjust as necessary */
+  background-color: #f9f9f9; /* Same as the header background */
+  z-index: 99; /* Below the sticky header */
+}
+
+.bot-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bot-icon,
+.info-icon {
+  margin-right: 5px;
+  color: #4299e1; /* Color matching the bot ID */
+}
+
+.bot-info {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.bot-id {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #4299e1; /* A touch of color for the ID */
+  border-top: 1px solid #eaeaea; /* Subtle separator */
+  padding-top: 10px;
+}
+
+.bot-icon {
+  color: #4299e1; /* Existing color style, keep or modify as needed */
+  font-size: 24px; /* Adjust the size as needed */
+  margin-right: 5px; /* Existing margin, keep or adjust as needed */
+}
+
+.botlist::-webkit-scrollbar {
+  width: 6px;
+}
+
+.botlist::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.botlist::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.botlist::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.cont-chatarea {
+  max-height: 600px;
+  height: 100%;
+}
+.chat-area {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #e3e3e3; /* Updated to a modern light grey */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.chat-message {
+  max-width: 50%; /* Maximum width for both sent and received messages */
+  margin: 5px 0; /* Uniform margin for top and bottom */
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.chat-message.received {
+  background-color: #ffffff; /* Light background for bot messages */
+  align-self: flex-start; /* Align bot messages to the left */
+  border-top-left-radius: 0; /* Speech bubble effect for left-aligned messages */
+}
+
+.chat-message.sent {
+  background-color: #007bff; /* Blue background for user messages */
+  color: white;
+  align-self: flex-end; /* Align user messages to the right */
+  border-top-right-radius: 0; /* Speech bubble effect for right-aligned messages */
+}
+
+.chat-input-area {
+  display: flex;
+  margin-top: auto;
+}
+
+.chat-input-area input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  margin-right: 5px;
+}
+
+.chat-input-area button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.chat-input-area button:hover {
+  background-color: #0056b3;
+}
+
+/* Scrollbar styles for chat area */
+.chat-area::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-area::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.chat-area::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.chat-area::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.bot-card.lifetime-access {
+  background-color: #f8e8c1; /* A subdued gold color for a premium feel */
+  color: #4a4a4a; /* Darker text color for better readability */
+  border: 1px solid #d4bb7e; /* Adding a border for a more defined look */
+}
+
+/* Adjusting icon colors for the lifetime access cards */
+.bot-card.lifetime-access .bot-icon,
+.bot-card.lifetime-access .info-icon {
+  color: #d4bb7e; /* A matching gold tone for icons */
+}
+
+/* Optionally, you can also add a subtle shadow for a lifted effect */
+.bot-card.lifetime-access {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustment for larger screens */
+@media (min-width: 768px) {
+  .chat-message.sent {
+    margin-left: auto; /* Pushes sent messages to the right */
+  }
+}

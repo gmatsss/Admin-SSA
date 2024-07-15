@@ -1,0 +1,99 @@
+.roadmaps-container {
+  width: 80%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.roadmap-title {
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.roadmap-form .form-group {
+  margin-bottom: 20px;
+  width: 80%; /* Adjust the width as needed */
+  margin-left: auto; /* Centering the form group */
+  margin-right: auto;
+}
+
+.form-control {
+  width: 100%;
+  padding: 15px 20px; /* Increased padding for larger input */
+  border: 2px solid #2c3e50; /* Solid border for a modern look */
+  border-radius: 8px; /* Rounded corners */
+  font-size: 18px; /* Larger font size */
+  color: #2c3e50;
+  background-color: #f7f7f7; /* Light background for the input */
+  transition: border-color 0.3s, box-shadow 0.3s;
+
+  /* Adding a subtle shadow on focus for depth */
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 0 8px rgba(50, 150, 255, 0.6); /* Focus shadow */
+}
+
+.button-cont {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  width: 30%;
+  padding: 12px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.cancel-button {
+  width: 30%;
+  padding: 12px 15px;
+  background-color: #dc3545; /* Red color for cancel button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px; /* Space between buttons */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #c82333; /* Darker red on hover */
+  transform: translateY(-2px);
+}
+
+/* Styling for icons inside buttons */
+.submit-button svg,
+.cancel-button svg {
+  margin-right: 8px; /* Space between icon and text */
+  vertical-align: middle; /* Align icon with text */
+}
+
+/* Additional styling for labels */
+.roadmap-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #34495e;
+  font-weight: 500;
+}

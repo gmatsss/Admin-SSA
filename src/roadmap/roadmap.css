@@ -1,0 +1,123 @@
+.roadmap-container {
+  padding: 20px;
+  max-width: 1060px;
+  margin: auto;
+}
+
+.roadmap-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.roadmap-search-input {
+  flex-grow: 1;
+  padding: 10px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.roadmap-button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  transition: transform 0.3s ease; /* Transition for sliding effect */
+}
+
+.create-roadmap-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.create-roadmap-button:hover {
+  background-color: #218838;
+}
+
+.delete-roadmap-button {
+  padding: 10px 20px;
+  background-color: #dc3545; /* Red color for delete button */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease, transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(-20px); /* Start slightly above its final position */
+  visibility: hidden; /* Initially not visible */
+}
+
+.delete-roadmap-button.show {
+  opacity: 1; /* Fully visible when shown */
+  transform: translateY(0); /* Slide to final position */
+  visibility: visible; /* Make it visible */
+}
+
+.roadmap-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.roadmap-card {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.roadmap-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.roadmap-card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.roadmap-card p {
+  color: #333;
+}
+
+.pagination-roadmap {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-button-roadmap {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.page-button-roadmap:hover {
+  background-color: #e0e0e0;
+}
+
+.page-button-roadmap.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.roadmap-card.selected {
+  background-color: #e3f2fd; /* Light blue background for selected item */
+  border: 2px solid #007bff; /* Blue border for selected item */
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}

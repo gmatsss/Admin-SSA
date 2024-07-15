@@ -1,0 +1,92 @@
+.VA-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.VA-bots-column {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.VA-bot-card {
+  background-color: #ffffff;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 80%;
+  max-width: 300px;
+}
+
+.VA-bot-card-icon {
+  color: #4caf50;
+  font-size: 40px;
+  display: flex;
+}
+
+.VA-bot-card-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.VA-bot-card-details h4 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.VA-bot-card-details p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.VA-talk-button-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Added gap between buttons */
+}
+
+.VA-talk-button,
+.VA-configure-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.VA-talk-button:hover {
+  background-color: #0056b3;
+}
+
+.VA-configure-button {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.VA-configure-button:hover {
+  background-color: #f8f8f8;
+}
+
+.VA-button-icon {
+  font-size: 20px;
+}

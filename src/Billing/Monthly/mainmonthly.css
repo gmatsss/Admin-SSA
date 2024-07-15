@@ -1,0 +1,53 @@
+.content-container {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Spacing between columns */
+}
+
+.monthly-plan-container {
+  flex: 1;
+  max-width: 600px; /* Maximum width */
+  padding: 20px;
+}
+
+.plan-container {
+  flex: 1;
+  max-width: 800px; /* Maximum width */
+  padding: 20px;
+}
+
+.plan-action-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Example color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Make button full width */
+}
+
+.plan-action-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.verification-code {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark text */
+  text-align: center;
+  border-radius: 5px;
+}
+
+.code-text {
+  font-size: 20px; /* Increased font size for the code */
+  font-weight: bold;
+  display: block; /* Ensures the code is on a new line */
+  cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.apikey-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 600px; /* Limit the width for better readability */
+  background-color: #f9f9f9; /* Light background */
+}
+
+.apikey-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow */
+  display: flex;
+  align-items: center;
+  background-color: white; /* Card background */
+}
+
+.apikey-title {
+  font-size: 18px;
+  color: #333;
+  font-weight: 600;
+  margin-right: 15px; /* Space between title and value */
+}
+
+.apikey-value {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  position: relative; /* Positioning for the copy icon */
+  padding: 8px 0;
+}
+
+.apikey-value p {
+  margin: 0;
+  font-size: 16px; /* Larger font size */
+  color: #555; /* Darker font color */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.copy-icon {
+  position: absolute; /* Position the icon at the end */
+  right: 0; /* Align to the right */
+  color: #007bff;
+  cursor: pointer;
+  font-size: 20px; /* Larger icon size */
+}
+
+.copy-icon:hover {
+  color: #0056b3;
+}

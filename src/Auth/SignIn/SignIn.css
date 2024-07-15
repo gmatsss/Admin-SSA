@@ -1,0 +1,240 @@
+.container-fluid-signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  background-image: url("../../img/loginbg.jpg");
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Optional: Fix the background */
+}
+
+.loginHolder {
+  padding: 2rem; /* Adjust padding for more space */
+  width: 30%; /* Control the maximum width */
+  font-size: 1.1em; /* Increase base font size */
+  margin-bottom: 200px;
+}
+
+.additional-content {
+  color: #000000;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__group {
+  position: relative;
+  padding: 20px 0 0;
+  width: 100%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1em; /* Adjust font size for input fields */
+  padding: 10px 0;
+  color: #000000;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+  color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 17px;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1em;
+  color: #de416c;
+  pointer-events: none;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #de416c, #c46f85);
+  border-image-slice: 1;
+}
+
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 17px;
+  color: #de416c;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+}
+
+.btn-login {
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  min-width: 150px; /* Set a minimum width */
+  min-height: 50px; /* Set a minimum height */
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #dfdfdf;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative; /* Add this line */
+}
+
+.btn-login:hover {
+  background-color: #de416c;
+  box-shadow: 0px 15px 20px #c26f85;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn-login:active {
+  transform: translateY(-1px);
+}
+
+.rounded {
+  border-radius: 15px; /* Set the border-radius for rounded corners */
+}
+
+.logologin {
+  width: 30%;
+  filter: invert(13%);
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+  .form__field {
+    font-size: 15px;
+    padding: 6px 0;
+  }
+
+  .form__label {
+    font-size: 15px;
+  }
+
+  .loginHolder {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  .logologin {
+    width: 50%;
+  }
+}
+
+/* Media query for screens starting from 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .form__field {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+
+  .form__label {
+    font-size: 14px;
+  }
+
+  .loginHolder {
+    width: 70%;
+  }
+
+  .logologin {
+    width: 80%;
+  }
+}
+
+/* Media query for screens starting from 320px to 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .form__field {
+    font-size: 13px;
+    padding: 4px 0;
+  }
+
+  .form__label {
+    font-size: 13px;
+  }
+
+  .loginHolder {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .logologin {
+    width: 80%;
+  }
+}
+
+/* You can add media queries for responsive design */
+@media (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+  }
+}
+
+.lds-dual-ring1 {
+  position: absolute; /* Add this line */
+  top: 50%; /* Add this line */
+  left: 50%; /* Add this line */
+  transform: translate(-50%, -50%); /* Add this line */
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 28px;
+  margin-bottom: 5px;
+}
+
+.lds-dual-ring1:after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 6px solid #de416c; /* Default color */
+  border-color: #de416c transparent #de416c transparent; /* Default color */
+  animation: lds-dual-ring1 1.2s linear infinite;
+}
+
+/* Change the loader color when the button is hovered */
+.btn-login:hover .lds-dual-ring1:after {
+  border-color: #fff transparent #fff transparent; /* Hover color */
+}
+
+@keyframes lds-dual-ring1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

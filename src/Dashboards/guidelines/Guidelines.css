@@ -1,0 +1,72 @@
+.guidelines-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-height: 650px;
+  overflow-y: auto;
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.guideline-section {
+  border-bottom: 2px solid #e0e0e0; /* Slightly thicker border for each section */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.guideline-section:hover {
+  background-color: #ffffff; /* Slight highlight on hover */
+}
+
+.additional-guidelines h2,
+.files-section h2 {
+  color: #2a2a2a; /* Richer text color for better contrast */
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.additional-guidelines p,
+.files-section p {
+  color: #4a4a4a; /* Dark grey for readability */
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.files-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.files-list li {
+  margin-bottom: 15px; /* More space between files for better readability */
+}
+
+.files-list li a {
+  color: #1a75ff; /* Slightly different blue shade for links */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smoother transitions */
+}
+
+.files-list li a:hover {
+  color: #0047b3; /* Darker blue on hover for contrast */
+  transform: translateX(5px); /* Subtle horizontal movement on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .guidelines-container {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px; /* Smaller radius for smaller screens */
+  }
+
+  .additional-guidelines h2,
+  .files-section h2 {
+    font-size: 18px; /* Adjust heading size for mobile */
+  }
+}
