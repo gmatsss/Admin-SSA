@@ -1,61 +1,82 @@
 .VA-container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
   height: 100%;
   padding: 20px;
   box-sizing: border-box;
+  justify-content: center;
+  gap: 20px;
 }
 
 .VA-bots-column {
-  flex: 2;
+  flex: 0 0 calc(33.333% - 20px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .VA-bot-card {
-  background-color: #ffffff;
-  border: 2px dashed #ccc;
-  border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border: none;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 15px;
-  width: 80%;
+  width: 100%;
   max-width: 300px;
+  position: relative;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.VA-bot-card:hover,
+.VA-bot-card.active {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
 }
 
 .VA-bot-card-icon {
   color: #4caf50;
-  font-size: 40px;
-  display: flex;
+  font-size: 80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .VA-bot-card-details {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .VA-bot-card-details h4 {
   margin: 0;
   color: #333;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .VA-bot-card-details p {
   margin: 0;
   color: #666;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-.VA-talk-button-column {
-  flex: 1;
+.VA-buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px; /* Added gap between buttons */
+  justify-content: space-between;
+  gap: 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .VA-talk-button,
@@ -63,14 +84,14 @@
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
+  border-radius: 50px;
+  padding: 10px 14px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 5px;
 }
 
 .VA-talk-button:hover {
@@ -88,5 +109,67 @@
 }
 
 .VA-button-icon {
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.VA-bot-animation {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  height: 30px;
+  align-items: flex-end;
+}
+
+.VA-line {
+  width: 8px;
+  height: 5px;
+  background-color: #007bff;
+  border-radius: 1rem;
+}
+
+.VA-line:nth-child(1) {
+  animation: animateLoader 0.7s 0.6s infinite;
+}
+
+.VA-line:nth-child(2) {
+  animation: animateLoader 0.7s 0.3s infinite;
+}
+
+.VA-line:nth-child(3) {
+  animation: animateLoader 0.7s infinite;
+}
+
+.VA-line:nth-child(4) {
+  animation: animateLoader 0.7s 0.3s infinite;
+}
+
+.VA-line:nth-child(5) {
+  animation: animateLoader 0.7s 0.6s infinite;
+}
+
+@keyframes animateLoader {
+  0% {
+    height: 5px;
+  }
+  50% {
+    height: 18px;
+  }
+  100% {
+    height: 5px;
+  }
+}
+
+.VA-bot-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.VA-bot-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
